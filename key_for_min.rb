@@ -14,8 +14,8 @@ def key_for_min_value(name_hash)
     while counter < storage.length - 1
       if storage[counter] > storage[counter+1]
         min_value = storage[counter+1]
-        counter += 1
       end
+      counter += 1
     end
 
     name_hash.each do |name, value|
