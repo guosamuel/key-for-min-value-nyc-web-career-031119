@@ -27,7 +27,7 @@ def key_for_min_value(name_hash)
       end
     end  
     
-  else
+  elsif name_hash == {}
     return nil
   end
 end
