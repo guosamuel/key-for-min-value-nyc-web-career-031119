@@ -28,6 +28,6 @@ def key_for_min_value(name_hash)
     end  
     
   elsif !name_hash
-    return false
+    return nil
   end
 end
