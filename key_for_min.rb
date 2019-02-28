@@ -12,8 +12,8 @@ def key_for_min_value(name_hash)
     end
     
     while counter < storage.length - 1
-      if storage[counter] > storage[counter+1]
-        min_value = storage[counter+1]
+      if storage[counter] < storage[counter+1]
+        min_value = storage[counter]
       end
       counter += 1
     end
