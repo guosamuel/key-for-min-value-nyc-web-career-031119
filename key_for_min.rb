@@ -28,6 +28,6 @@ def key_for_min_value(name_hash)
     end  
     
   else
-    return name_hash
+    return false
   end
 end
